@@ -52,7 +52,7 @@ $(function() {
                 //手动切换到登陆表单
                 $("#link_login").click();
                 //重置form表单
-                $("#form_reg").reset();
+                $("#form_reg")[0].reset();
             }
         })
     })
